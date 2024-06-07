@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 0, 0, 0.59);
+    /*background-image: url("pngtree-cyber-security-concept-data-protection-and-secured-internet-picture-image_2499679.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-attachment: fixed;*/
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.milieu{
+    padding: 10px;
+    text-align: center;
+    /*border-block: 10px #008cba;*/
+
+}
+
+#startGameBtn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#startGameBtn:hover {
+    background-color: #555;
+}
+
+.games {
+    display: flex;
+    padding-top: 300px;
+    justify-content: space-around;
+}
+
+.game {
+    background-color: #c26262;
+    border: 1px solid #ddd;
+    padding: 30px;
+    width: 30%;
+    box-shadow: 2px 2px 5px rgba(236, 236, 236, 0.1);
+    text-align: center;
+}
+
+.game h4 {
+    margin-top: 0;
+}
+
+.playBtn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.playBtn:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

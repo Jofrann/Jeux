@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f4f4f4;
+ }
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+body{
+    /*background-image: url("https://www.netcampus.fr/uploads/bgimage/59c276f156ad3.jpg") ;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /*transform: rotate(90deg);*/
+    background-color: #333;
+    display: flow;
+    flex-wrap: wrap;
+}
+#main-logo-id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Fin du code de la bande du haut*/
+
+/*Partie Contact*/
+.contact-container{
+    display: flex;
+    justify-content: center;
+
+}
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    margin: auto auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px orangered;
+}
+
+.contact-form h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #232323;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #c26262;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #2a2a2a;
+}
+
+.contact-form .success-message,
+.contact-form .error-message {
+    display: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.contact-form .success-message {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.contact-form .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
